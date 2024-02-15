@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Landing Page</title>
+    <link rel="stylesheet" href="sttyle.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="brand">PK</a>
+            <ul class="nav-links">
+                <li class="active"><a href="#hero">Home</a></li>
+                <li class="active"><a href="#about-section">About us</a></li>
+                <li class="active"><a href="#inner_c">Why...Me?</a></li>
+                <li class="active"><a href="#">Contact us</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!--hero  -->
+    <div class="hero" id="hero">
+        <video  autoplay loop muted plays-inline 
+        class="back-video">
+            <source src="assets/animate.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+        <h1>Example</h1>
+        <a href="">Website Link</a>
+    </div>
+    </div>
+    <div class="ab">
+<div class="about-section"id="about-section" >
+    <div class="about-head">
+      <div class="about-heading">
+        <span class="sageGreen">ABOUT </span
+        ><span class="royaleYellow"> FOUNDERS</span>
+      </div>
+      <div class="about-desc">
+        The world needs your creativity and ingenuity. Don't put your dreams
+        on hold. Start your founder's journey today!
+      </div>
+    </div>
+  </div>
+  <div class="about-content">
+    <div class="about-img">
+      <img src="assets/stock_img.jpg" alt="" srcset="" />
+    </div>
+    <div class="about-ul royaleYellow">
+      <ul>
+        <li>Darsheel Savla, a co-founder at PatilKaki, is a charismatic and creative powerhouse who infuses his passion for food, people, and brand building into everything he does. </li>
+        <li>
+            With an unshakable drive and an insatiable appetite for culinary exploration, he's determined to bring the legendary recipes of PatilKaki to the world.
+        </li>
+        <li>
+            Also, a visionary leader with a passion for building D2C businesses, Darsheel is rolling out his new consultancy programme to help fellow founders and entrepreneurs navigate the challenges of going Direct-2-Consumer.
+        </li>
+        <li> Join him in this journey to gain various insights on industry secrets and how to supercharge the pace at which you learn and grow! 🚀📈</li>
+    
+      </ul>
+    </div>
+  </div>
+</div>
+    <!-- <div class="" style="padding-top: 1000px;"></div> -->
+    <div class="inner_c"id="inner_c">
+    <section class ="Course">
+        <h1>Why should You go ahead with Me?</h1>
+        
+        <div class="row">
+            <div class="course-col">
+            <img src="assets/Why_img1.png" alt="" style="max-width: 120px;
+            max-height: 120px;">
+            <p>Learn to look at the challenges <br> through a different lens</p>
+            </div>
+            
+            <div class="course-col">
+                <img src="assets/Why_img2.png" alt="" style="max-width: 120px;
+                max-height: 120px;">
+            <p>
+            Develop a deep understanding <br> of modern marketing</p>
+            </div>
+    
+            <div class="course-col">
+                <img src="assets/Why_img3.png" alt="" style="max-width: 120px;
+                max-height: 120px;">
+            <p>understand time-tested <br> principles
+            </p>
+            </div>
+        </div>
+        <div class="row1">
+        <div class="course-col">
+            <img src="assets/Why_img4.png" alt="" style="max-width: 120px;
+            max-height: 120px;">
+            <p>Becomes a strategic thinker <br> without trend-surfing</p>
+            </div>
+        <div class="course-col">
+            <img src="assets/Why_img5.png" alt="" style="max-width: 120px;
+            max-height: 120px;">
+            <p>incorporate a creative & <br>innovative thought process</p>
+            </div>
+        </div>
+    
+        <div id="registration-form" class="hidden">
+            <form action="#">
+                <h2>Connect with us!</h2>
+    
+                <label for="name">Phone</label><i class='bx bxs-phone' ></i>
+                <input type="number" id="numb" name="numb" placeholder="987xxxxxxx" required>
+                
+                <br>
+                <label for="email">Email</label><i class='bx bxs-envelope' ></i>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                
+                <br>
+                <button class="register" type="submit">Submit</button>
+                <button type="button" id="close-button">X</button>
+            </form>
+        </div>
+    
+        
+    </section>
+</div>
+
+<!-- Countdown timer -->
+<div class="countdown-container" id="countdown">
+    <div class="countdown-heading sageGreen">Time is running out!</div>
+    <div class="countdown-heading sageGreen">Grab your spot fast!</div>
+    <ul>
+      <li class="royaleYellow"><span id="hours">0</span>Hours</li>
+      <li class="royaleYellow"><span id="minutes">10</span>Minutes</li>
+      <li class="royaleYellow"><span id="seconds">0</span>Seconds</li>
+    </ul>
+    <button class="register">Register Now at ₹ 499 <span class="strike">1999</span></button>
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
